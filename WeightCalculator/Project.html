@@ -1,0 +1,107 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="Project.css">
+    </head>
+    <body class="p">
+
+
+        <div class="center">
+            <div class="a">
+                <h2>To know about your weight in other planets please</h2>
+                <b>Enter your weight:</b><br>
+                <input type="number" id="wgt"><br>
+                <button onclick="calWeight()">Submit</button><br>
+
+            </div>      
+
+            
+                <div class="b">
+
+                    <div class="mercury">
+                        <img src="mercury1.jpg" class="img1" alt="Mercury"><br>
+                        <b>Mercury</b> : <span id="mercury"></span> <b>kg</b>
+                    </div>
+
+                    <div class="venus">
+                        <img src="venus1.jpg" class="img2" alt="Venus"> <br>
+                        <b>Venus</b> : <span id="venus"></span> <b>kg</b>
+                    </div>
+
+                    <div class="mars">
+                        <img src="mars.jpg" class="img3" alt="Mars"><br>
+                        <b>Mars</b> : <span id="mars"></span> <b>kg</b>
+                    </div>
+                    <br>
+
+                    <div class="pluto">
+                        <img src="pluto.jpg" class="img4" alt="Pluto"><br>
+                        <b>Pluto</b> : <span id="pluto"></span> <b>kg</b>
+                    </div>
+
+                    <div class="jupiter">
+                        <img src="jupiter.jpg" class="img5" alt="Jupiter"><br>
+                        <b>Jupiter</b> : <span id="jupiter"></span> <b>kg</b>
+                    </div>
+
+                    <div class="saturn">
+                        <img src="saturn1.jpg" class="img6" alt="Saturn"><br>
+                        <b>Saturn</b> : <span id="saturn"></span> <b>kg</b>
+                    </div>
+                    <br>
+
+                    <div class="uranus">
+                        <img src="uranus.jpg" class="img7" alt="Uranus"><br>
+                        <b>Uranus</b> : <span id="uranus"></span> <b>kg</b>
+                    </div>
+
+                    <div class="moon">
+                        <img src="moon.jpg" class="img8" alt="Moon"><br>
+                        <b>Moon</b> : <span id="moon"></span> <b>kg</b>
+                    </div>
+
+                    <div class="neptune">
+                        <img src="neptune.jpg" class="img9" alt="Neptune"><br>
+                        <b>Neptune</b>: <span id="neptune"></span> <b>kg</b>
+                    </div>
+                    <br>
+
+                </div>
+            
+        </div>
+    </body>
+
+    <script>
+        function calWeight()
+        {
+            var w = parseFloat(document.getElementById("wgt").value);
+
+            mercury = Math.trunc(w*0.38);
+            document.getElementById("mercury").innerHTML = mercury;
+
+            venus = Math.trunc(w*0.91);
+            document.getElementById("venus").innerHTML = venus;
+
+            mars = Math.trunc(w*0.38);
+            document.getElementById("mars").innerHTML = mars;
+
+            jupiter = Math.trunc(w*2.34);
+            document.getElementById("jupiter").innerHTML = jupiter;
+
+            saturn = Math.trunc(w*1.06);
+            document.getElementById("saturn").innerHTML = saturn;
+
+            uranus=Math.trunc( w*0.92);
+            document.getElementById("uranus").innerHTML = uranus;
+
+            neptune =  Math.trunc(w*1.19);
+            document.getElementById("neptune").innerHTML = neptune ;
+
+            pluto = Math.trunc(w*0.06);
+            document.getElementById("pluto").innerHTML = pluto;
+
+            moon = Math.trunc(w*0.17);
+            document.getElementById("moon").innerHTML =moon ;
+         
+     }
+    </script>
+</html>
