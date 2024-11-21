@@ -1,2 +1,3 @@
 # Space-Weight-Calculator
-is a simple JavaScript application that allows users to calculate their weight on different planets, including the Moon, based on Earth's gravity. By inputting their Earth weight, the app provides the corresponding weight on other celestial bodies.
+
+This JavaScript project allows users to input their weight on Earth and calculate their equivalent weight on other planets in our solar system. The application utilizes the different gravitational forces of each planet to determine the user's weight across various celestial bodies. It's an interactive tool that not only showcases JavaScript's capabilities in handling calculations and user input but also provides an educational experience about gravity and its effects on weight.
