@@ -1,0 +1,146 @@
+.p{
+    background-image: url(space.jpg);
+
+}
+
+.a{
+    border-style: double;
+    border-color: lightseagreen;
+    text-align: center;
+    color: greenyellow;
+    margin-top: 25px;
+    border-radius: 15px;
+}
+
+.b{
+    border-style: double;
+    text-align: center;
+    color: chartreuse;
+    border-color: lightskyblue;
+    font-size: large;
+    font-weight: bold;
+    border-radius: 15px;
+    margin-top: 50px;
+}
+
+.mercury{
+    display: inline-block;
+    position: relative;
+    height: 100px;
+    width: 150px;
+    margin-top: 75px;
+
+}
+
+.img1{
+    height: 100px;
+    border-radius: 25px;
+}
+
+.venus{
+    display: inline-block;
+    position: relative;
+    height: 100px;
+    width: 150px;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.img2{
+    height: 100px;
+    border-radius: 25px;
+}
+
+.mars{
+    display: inline-block;
+    position: relative;
+    height: 100px;
+    width: 150px;
+
+}
+
+.img3{
+    height: 100px;
+    border-radius: 25px;
+}
+
+.pluto{
+    display: inline-block;
+    position: relative;
+    height: 100px;
+    width: 150px;
+    margin-top: 50px;
+}
+
+.img4{
+    height: 100px;
+    border-radius: 25px;
+}
+
+.jupiter{
+    display: inline-block;
+    position: relative;
+    height: 100px;
+    width: 150px;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.img5{
+    height: 100px;
+    border-radius: 25px;
+}
+
+.saturn{
+    display: inline-block;
+    position: relative;
+    height: 100px;
+    width: 150px;
+    
+}
+
+.img6{
+    height: 100px;
+    border-radius: 25px;
+}
+
+.uranus{
+    display: inline-block;
+    position: relative;
+    height: 100px;
+    width: 150px;
+    margin-bottom: 75px;
+    margin-top: 50px;
+}
+
+.img7{
+    height: 100px;
+    border-radius: 25px;
+}
+
+.moon{
+    display: inline-block;
+    position: relative;
+    height: 100px;
+    width: 150px;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.img8{
+    height: 100px;
+    border-radius: 25px;
+}
+
+.neptune{
+    display: inline-block;
+    position: relative;
+    height: 100px;
+    width: 150px;
+   
+}
+
+.img9{
+    height: 100px;
+    border-radius: 25px;
+}
